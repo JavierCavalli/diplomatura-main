@@ -1,10 +1,14 @@
 body {
   font-family: "Poppins", serif;
-  margin: 20px;
+  margin: 0px;
 }
 
 a:visited {
   color: #5957df;
+}
+
+.index-main-container {
+  margin-left: 15px;
 }
 
 .title-h1 {
@@ -54,6 +58,10 @@ a:visited {
   box-shadow: 3px 0px 2px rgb(169, 169, 169);
 }
 
+.form-main-container {
+  margin: 20px;
+}
+
 .form-button {
   border-color: #000000;
   background-color: #ffffff;
@@ -63,6 +71,12 @@ a:visited {
   padding: 10px 25px 10px 25px;
 }
 
+.fb-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .form-button:hover {
   background-color: #000000;
   transition: 0.5s;
@@ -70,6 +84,87 @@ a:visited {
   border: 3px solid transparent;
 }
 
+.form-button-fb {
+  border-color: #000000;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 25px 10px 25px;
+  margin: 30px;
+}
+
+.form-button-fb:hover {
+  background-color: #000000;
+  transition: 0.5s;
+  border-style: none;
+  border: 3px solid transparent;
+}
+
+.fb-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .form-button-a {
   text-decoration: none;
+}
+
+.caja-roja {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+}
+
+.caja-azul {
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+}
+
+.caja-verde {
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  justify-content: right;
+}
+
+.ejemplo-uno {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.ejemplo-dos {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 300px 0px 300px 0px;
+}
+
+.ejemplo-tres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 300px 0px 300px 0px;
+}
+
+.ejercicio-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fb-number {
+  display: flex;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 35%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
