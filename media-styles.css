@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  color: #000;
+  background: #332f29;
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#contenedor {
+  width: 1200px;
+  background: #8fa68e;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+nav {
+  background: #cc3910;
+  float: left;
+  width: 160px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #f1f2c0;
+  text-decoration: none;
+}
+section {
+  background: #f1f2c0;
+  float: left;
+  margin: 0 0 0 25px;
+  width: 400px;
+}
+aside {
+  background: #ccc59e;
+  float: right;
+  width: 190px;
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    background-color: #ffcc66;
+    width: 1600;
+  }
+
+  li {
+    margin: 20px;
+    font-weight: 500;
+  }
+
+  a {
+    color: #000;
+  }
+
+  section {
+    width: 1600px;
+    margin: 0px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+
+  aside {
+    width: 1200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .form-button {
+    border-color: #000000;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+  }
+
+  .form-button:hover {
+    background-color: #d96e6e;
+    transition: 0.3s;
+    border-style: none;
+    border: 3px solid transparent;
+  }
+}
