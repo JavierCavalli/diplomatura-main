@@ -41,6 +41,10 @@ aside {
   width: 190px;
 }
 
+.form-button {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   nav {
     background-color: #ffcc66;
@@ -70,6 +74,7 @@ aside {
   }
 
   .form-button {
+    display: flex;
     border-color: #000000;
     background-color: #ffffff;
     font-size: 20px;
